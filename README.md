@@ -6,6 +6,7 @@ dropbox-sample
 
 ```
 %bundle install
+%cp config.yml.sample config.yml
 %vi config.yml
 %bundle exec ruby example.rb
 ```
